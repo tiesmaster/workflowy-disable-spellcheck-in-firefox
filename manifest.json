@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Workflowy: disable spellcheck",
+    "version": "1.0",
+    "description": "Disables spellcheck on Workflowy.",
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.workflowy.com/*"
+            ],
+            "js": [
+                "disable-spellcheck.js"
+            ]
+        }
+    ]
+}
