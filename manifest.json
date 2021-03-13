@@ -1,9 +1,7 @@
 {
     "manifest_version": 2,
-    "id": "workflowy-disable-spellcheck-in-firefox@tiesmaster.dev",
     "name": "Workflowy: disable spellcheck",
     "author": "Ties Brobbel (tiesmaster)",
-    "license": "MIT License",
     "version": "0.1.0",
     "description": "Disables spellcheck for Workflowy.",
     "icons": {
